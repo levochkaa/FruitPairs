@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21208.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xSQ-Ht-dbY">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xSQ-Ht-dbY">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21191"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -80,7 +80,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xSQ-Ht-dbY" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hN7-mK-sW5">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -130,9 +130,11 @@
                                     <constraints>
                                         <constraint firstItem="EBL-ac-cjZ" firstAttribute="centerX" secondItem="lhH-A0-Anv" secondAttribute="centerX" id="2MK-vH-ngG"/>
                                         <constraint firstItem="hti-f3-Ga4" firstAttribute="top" secondItem="lhH-A0-Anv" secondAttribute="top" constant="11" id="G6p-cx-El8"/>
+                                        <constraint firstItem="EBL-ac-cjZ" firstAttribute="leading" secondItem="hti-f3-Ga4" secondAttribute="trailing" constant="8" id="MsI-Iq-q6k"/>
                                         <constraint firstItem="hti-f3-Ga4" firstAttribute="leading" secondItem="lhH-A0-Anv" secondAttribute="leading" constant="26" id="OfY-G9-q4I"/>
                                         <constraint firstItem="EBL-ac-cjZ" firstAttribute="centerY" secondItem="lhH-A0-Anv" secondAttribute="centerY" id="f4T-Wp-0Ur"/>
                                         <constraint firstAttribute="bottom" secondItem="hti-f3-Ga4" secondAttribute="bottom" constant="10.5" id="i3y-6y-W0s"/>
+                                        <constraint firstItem="EBL-ac-cjZ" firstAttribute="leading" secondItem="hti-f3-Ga4" secondAttribute="trailing" constant="8" id="vzV-bo-cW5"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
